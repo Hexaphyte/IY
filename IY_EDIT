@@ -11881,9 +11881,9 @@ end
 IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
-	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/version'))() end) then
+	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Hexaphyte/IY/main/IY_EDIT'))() end) then
 		if ver ~= Version then
-			notify('Outdated','Get the new version at infinite.yiff.gg')
+			notify('Outdated','Get the new version at https://raw.githubusercontent.com/Hexaphyte/IY/main/IY_EDIT')
 		end
 		if Announcement and Announcement ~= '' then
 			local AnnGUI = Instance.new("Frame")
