@@ -11883,7 +11883,7 @@ IYMouse.Move:Connect(checkTT)
 task.spawn(function()
 	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Hexaphyte/IY/main/IY_EDIT'))() end) then
 		if ver ~= Version then
-			notify('Outdated','Get the new version at https://raw.githubusercontent.com/Hexaphyte/IY/main/IY_EDIT')
+			wait()
 		end
 		if Announcement and Announcement ~= '' then
 			local AnnGUI = Instance.new("Frame")
