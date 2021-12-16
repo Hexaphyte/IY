@@ -11085,7 +11085,7 @@ if tools(speaker) then
 			until not getRoot(target.Character) or not getRoot(speaker.Character)
 			wait(1)
 			speaker.CharacterAdded:Wait():WaitForChild("HumanoidRootPart").CFrame = NormPos
-            wait(1)
+            wait()
 		end
             end
 		end
