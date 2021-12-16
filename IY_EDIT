@@ -11075,7 +11075,7 @@ if tools(speaker) then
 				refresh(speaker)
 				wait()
 				repeat wait() until speaker.Character ~= nil and getRoot(speaker.Character)
-				wait(0.3)
+				wait(1)
 			end
 			local hrp = getRoot(speaker.Character)
 			attach(speaker,target)
@@ -11083,9 +11083,9 @@ if tools(speaker) then
 				wait()
 				hrp.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5,999999)
 			until not getRoot(target.Character) or not getRoot(speaker.Character)
-			wait(1)
+			wait()
 			speaker.CharacterAdded:Wait():WaitForChild("HumanoidRootPart").CFrame = NormPos
-            wait()
+            wait(1)
 		end
             end
 		end
